@@ -1,0 +1,64 @@
+
+
+
+.schedule-section-container {
+  background-color: #f7f9fd;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+}
+
+.section-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  color: #1a1a40;
+}
+
+.schedule-day {
+  margin-bottom: 2rem;
+}
+
+.day-label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #8888aa;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.event-card {
+  background-color: #eaefff;
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #1f1f52;
+}
+
+.event-title {
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.event-icon {
+  margin-left: 0.5rem;
+}
+
+.event-time {
+  font-size: 13px;
+  color: #4e4e85;
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  .event-grid {
+    grid-template-columns: 1fr;
+  }
+}

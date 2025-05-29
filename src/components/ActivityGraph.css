@@ -1,0 +1,86 @@
+
+.activity-container {
+  background-color: #f8faff;
+  border-radius: 20px;
+  padding: 20px;
+  
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+  
+}
+
+
+@media (min-width: 1024px) {
+.activity-container {
+  background-color: #f8faff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 580px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+  
+}
+}
+
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.activity-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.activity-header span {
+  font-size: 12px;
+  color: #999;
+}
+
+.graph-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+
+.day-bar-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.bars {
+  display: flex;
+  gap: 4px;
+  align-items: flex-end;
+  height: 60px;
+}
+
+.bar {
+  width: 6px;
+  border-radius: 5px;
+}
+
+.color-0 {
+  background-color: #e2e8f0; /* light gray */
+}
+
+.color-1 {
+  background-color: #06d6f9; /* cyan */
+}
+
+.color-2 {
+  background-color: #4d4cff; /* purple */
+}
+
+.day-label {
+  font-size: 12px;
+  color: #666;
+}

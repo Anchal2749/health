@@ -1,0 +1,58 @@
+.anatomy {
+  position: relative;
+  text-align: center;
+}
+
+.anatomy img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.tag {
+  position: absolute;
+  background: #4431c3;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.heart {
+  top: 100px;
+  right: 200px;
+}
+
+.leg {
+  bottom: 100px;
+  left: 260px;
+  background: #00c2ff;
+}
+
+@media (max-width: 768px) {
+    .heart {
+  top: 100px;
+  right: 50px;
+}
+
+.leg {
+  bottom: 100px;
+  left: 70px;
+  background: #00c2ff;
+}
+}
+
+
+@media (min-width: 1024px) {
+
+.heart {
+  top: 100px;
+  right: 10px;
+}
+
+.leg {
+  bottom: 100px;
+  left: 60px;
+  background: #00c2ff;
+}
+
+}
